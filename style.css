@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap") * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif");
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  padding: 26px 83px;
+}
+
+nav .logo {
+  height: 34px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: rgb(221, 205, 205);
+}
+
+.intro {
+  margin: 77px 114px;
+  text-transform: capitalize;
+  width: 485px;
+  position: relative;
+}
+
+.intro h1 {
+  font-size: 75px;
+  line-height: 1.3;
+}
+
+.intro .btn {
+  text-transform: capitalize;
+  background-color: #4a3e3e;
+  position: absolute;
+  bottom: -58px;
+  width: 166px;
+  padding: 7px;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.intro .btn:hover,
+.outro .btn:hover {
+  color: rgb(252, 212, 212);
+  cursor: pointer;
+}
+
+.outro {
+  position: absolute;
+  bottom: 93px;
+  right: 103px;
+  width: 400px;
+  line-height: 2;
+}
+
+.outro .btn {
+  text-transform: capitalize;
+  background-color: #4a3e3e;
+  width: 166px;
+  padding: 7px;
+  color: #fff;
+  border-radius: 8px;
+}
